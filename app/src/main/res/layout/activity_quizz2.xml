@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizzActivity2">
+
+    <LinearLayout
+        android:id="@+id/linear_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_question1"
+            android:layout_marginTop="85dp"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="@string/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rgroup1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textview_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:text="Oui"
+                android:id="@+id/radioButton1"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:text="Non"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/linear_question1"
+        android:id="@+id/linear_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_question2"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="@string/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rgroup2"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textview_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:text="Oui"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:text="Non"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/linear_question2"
+        android:id="@+id/linear_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_question3"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="@string/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rgroup3"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textview_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:text="Oui"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:text="Non"
+                android:textColor="@color/colorDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnValidate"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/linear_question3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/validate"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/background_test_button_squarre"/>
+
+
+</RelativeLayout>

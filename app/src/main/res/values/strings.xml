@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoronaTest</string>
+    <string name="quel_est_votre_pr_nom">Quel est votre prénom</string>
+    <string name="tapez_votre_pr_nom">Tapez votre prénom</string>
+    <string name="ok">Ok</string>
+    <string name="validate">Valider</string>
+    <string name="saveContinue">Suivant</string>
+    <string name="start">Je démarre le test</string>
+    <string name="question1">Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?</string>
+    <string name="question2">Ces derniers jours, avez-vous noté une forte diminution ou perte de votre goût ou de votre odorat ?</string>
+    <string name="question_textview">Répondez aux questions de notre assistant si vous pensez avoir des symptômes ou avoir été exposé au virus.</string>
+    <string name="question3"> Ces derniers jours, avez-vous eu un mal de gorge et/ou des douleurs musculaires et/ou des courbatures inhabituelles ?</string>
+<string name="question4">Ces dernières 24 heures, avez-vous de la diarrhée ? Avec au moins 3 selles molles.</string>
+    <string name="question5">Ces derniers jours, avez-vous une fatigue inhabituelle ?</string>
+    <string name="question6">Depuis 24 heures ou plus, êtes-vous dans l\'impossibilité de vous alimenter ou de boire ?</string>
+
+</resources>
